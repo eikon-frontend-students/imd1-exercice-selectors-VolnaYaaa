@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin-left: 25%;
+  margin-right: 25%;
+  min-width: 600px;
+}
+p {
+  color: #ff0808;
+  margin: 1em;
+}
+#presentation {
+  background-color: #f2f2f2;
+}
+.special {
+  color: #09c;
+  font-style: italic;
+}
+#presentation em {
+  font-weight: bold;
+}
+.list > li {
+  border: 1px solid red;
+}
+.special + p {
+  text-transform: uppercase;
+}
+article p:first-of-type {
+  background: yellow;
+}
+
+article p:nth-child(4) {
+  border: 2px solid green;
+}
+aside li:last-child {
+  background: red;
+}
+[data-note="secret"] {
+  border: 1px solid black;
+  border-style: dotted;
+}
+li:hover {
+  cursor: pointer;
+}
